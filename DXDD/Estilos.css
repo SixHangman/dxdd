@@ -1,0 +1,131 @@
+body{
+    background-color:brown;
+ }
+   .angry-grid {
+      display: grid; 
+   
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      
+      gap: 0px;
+      height: 100%;
+      
+   }
+     
+   #item-0 {
+   
+      background-color: #ff0000; 
+      grid-row-start: 1;
+      grid-column-start: 1;
+   
+      grid-row-end: 2;
+      grid-column-end: 2;
+      
+   }
+   #item-1 {
+   
+      background-color: #f09800; 
+      grid-row-start: 1;
+      grid-column-start: 2;
+   
+      grid-row-end: 2;
+      grid-column-end: 3;
+      
+   }
+   #item-2 {
+   
+      background-color: #f5ae32; 
+      grid-row-start: 1;
+      grid-column-start: 3;
+   
+      grid-row-end: 2;
+      grid-column-end: 4;
+      
+   }
+   #item-3 {
+   
+      background-color: #fdd130; 
+      grid-row-start: 1;
+      grid-column-start: 4;
+   
+      grid-row-end: 2;
+      grid-column-end: 5;
+      
+   }
+   #item-4 {
+   
+      background-color: #3c8500; 
+      grid-row-start: 2;
+      grid-column-start: 1;
+   
+      grid-row-end: 3;
+      grid-column-end: 2;
+      
+   }
+   #item-5 {
+   
+      background-color: #80ff00; 
+      grid-row-start: 2;
+      grid-column-start: 2;
+   
+      grid-row-end: 3;
+      grid-column-end: 3;
+      
+   }
+   #item-6 {
+   
+      background-color: #00ffaa; 
+      grid-row-start: 2;
+      grid-column-start: 3;
+   
+      grid-row-end: 3;
+      grid-column-end: 4;
+      
+   }
+   #item-7 {
+   
+      background-color: #0400ff; 
+      grid-row-start: 2;
+      grid-column-start: 4;
+   
+      grid-row-end: 3;
+      grid-column-end: 5;
+      
+   }
+
+   .Sombra{
+    background-color: aliceblue;
+    align-content: center;
+    justify-content: center;
+   }
+   .Child {
+    display: grid; 
+ 
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+    gap: 0px;
+    height: 100%;
+    
+ }
+   
+ #item-8 {
+ 
+    background-color: #272525; 
+    grid-row-start: 1;
+    grid-column-start: 2;
+ 
+    grid-row-end: 2;
+    grid-column-end: 3;
+    
+ }
+ #item-9 {
+ 
+    background-color: #fff; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 2;
+    grid-column-end: 2;
+    
+ }
